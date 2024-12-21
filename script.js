@@ -35,7 +35,7 @@ const fetchRecipes = async (query) => {
        recipeContainer.appendChild(recipeDiv);
     });
     } catch (error) {
-        recipeContainer.innerHTML = "<h2> error in Fetching recipes...</h2>";
+        recipeContainer.innerHTML = "<h2> Error in Fetching recipes...</h2>";
 }
 }
 
